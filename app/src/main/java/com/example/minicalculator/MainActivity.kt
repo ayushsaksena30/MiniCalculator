@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        val btnOpenActivity = findViewById<Button>(R.id.btnOpenActivity)  // Use findViewById
+        val btnOpenActivity = findViewById<Button>(R.id.btnOpenActivity)
 
         btnOpenActivity.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
